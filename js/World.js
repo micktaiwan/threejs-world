@@ -168,7 +168,7 @@ export class World {
     createGround() {
         // Three.js ground
         const groundGeometry = new THREE.PlaneGeometry(this.groundSize, this.groundSize);
-        const groundMaterial = new THREE.MeshStandardMaterial({ color: 0x3a8c3a });
+        const groundMaterial = new THREE.MeshStandardMaterial({ color: 0x0a2a0a });
         this.ground = new THREE.Mesh(groundGeometry, groundMaterial);
         this.ground.rotation.x = -Math.PI / 2;
         this.ground.receiveShadow = true;
