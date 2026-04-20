@@ -16,7 +16,7 @@ export class GameObject {
         if (this.mesh) {
             this.scene.add(this.mesh);
             // Ajouter une lumière à l'objet pour qu'il soit visible même hors de la salle
-            this.light = new THREE.PointLight(this.lightColor || 0xffffff, 1, 8);
+            this.light = new THREE.PointLight(this.lightColor || 0xffffff, 3, 10);
             this.mesh.add(this.light);
         }
         if (this.body) {

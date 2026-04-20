@@ -1,0 +1,9 @@
+{
+  "name": "threedee",
+  "version": "1.0.0",
+  "description": "Three.js 3D interactive game",
+  "scripts": {
+    "dev": "npx live-server --no-browser",
+    "serve": "npx http-server -c-1"
+  }
+}
